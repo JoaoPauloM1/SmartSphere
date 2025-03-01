@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from ai_tools.services import chatbot
+from ai_tools.services.chatbot import chatbot
 
 def index(request):
     return render(request, 'index.html')
